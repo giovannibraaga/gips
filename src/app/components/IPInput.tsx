@@ -6,7 +6,7 @@ interface IPInputProps {
 
 export default function IPInput({ ip, setIp, buscarIP }: IPInputProps) {
   return (
-    <div>
+    <div className="min-w-64">
       <input
         type="text"
         value={ip}
