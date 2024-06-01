@@ -12,7 +12,7 @@ export default function IPInput({ ip, setIp, buscarIP }: IPInputProps) {
         value={ip}
         onChange={(e) => setIp(e.target.value)}
         placeholder="Digite o IP que deseja buscar"
-        className="p-2 text-[#9AD1D4] border flex flex-row border-[#9AD1D4] rounded mb-4 w-64"
+        className="p-2 text-[#9AD1D4] border flex flex-row border-[#9AD1D4] rounded mb-4 w-full"
       />
       <button
         onClick={buscarIP}
