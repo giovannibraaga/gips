@@ -27,7 +27,7 @@ const Page = () => {
     try {
       setError(null);
       const response = await axios.get<IPinfo>(
-        `https://gipsbackend-7185f7144701.herokuapp.com/buscar/${ip}`
+        `https://gips-backend.onrender.com//buscar/${ip}`
       );
       setInfo(response.data);
     } catch (error) {
